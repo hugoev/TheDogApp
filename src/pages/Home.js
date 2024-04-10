@@ -84,7 +84,7 @@ export default function Home() {
                   {!searched ? (
                 dogs.map((dog) => (
                   <Link
-                    to={`https://cdn2.thedogapi.com/images/${dog.reference_image_id}.jpg`}
+                    to={`/${dog.name}`}
                     key={dog.id}
                     className="bg-slate-700 p-4 rounded hover:bg-slate-600 transition-all duration-200"
                   >
